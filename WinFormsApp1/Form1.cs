@@ -27,7 +27,7 @@ namespace WinFormsApp1
                 else
                     coste = 0.5 * numPalabras;
             else
-            //Si el telegrama es urgente
+            //Si el telegrama es urgent
             if (tipoTelegrama == 'u')
                 if (numPalabras <= 10)
                     coste = 5;
